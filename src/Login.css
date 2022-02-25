@@ -1,0 +1,17 @@
+.Login {
+    background-color: #282c34;
+    color: wheat;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+  .center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }

@@ -7,11 +7,13 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div id={"LoginPane"} style={{visibility: "visible"}}>
-    <Login />
-    </div>
-    <div id={"AppPane"} style={{visibility: "hidden"}}>
-      <App />
+    <div style={{backgroundColor: '#282c34', height: '100vh'}}>
+      <div id={"LoginPane"} style={{visibility: "visible"}}>
+      <Login />
+      </div>
+      <div id={"AppPane"} style={{visibility: "hidden"}}>
+        <App />
+      </div>
     </div>
   </React.StrictMode>,
   document.getElementById('root')
